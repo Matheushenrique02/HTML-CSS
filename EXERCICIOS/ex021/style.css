@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(223, 165, 18, 0.548)
+}
+header{
+    padding:10px;
+    h1{ box-shadow: 6px 5px 5px rgba(158, 95, 0, 0.356);
+        text-align: center;
+        background-color:rgba(255, 217, 0, 0.473);
+        color:rgb(131, 9, 9)
+    
+    }
+    nav{
+        a{  
+            text-align: justify;
+            margin: 30px;
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        }
+        
+}
+main{
+    box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+    margin: 40px;
+    font-size: large;
+    background-color: rgba(139, 148, 9, 0.527);
+
+    h3{
+        background-color: rgba(131, 9, 9, 0.637);
+        border-radius: 5px;
+        
+    }
+  
+}
+footer{
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: cornsilk;
+    color:black
+    
