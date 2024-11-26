@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio04</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border: 1px solid black;
+            border-collapse:collapse;
+            padding: 10px;
+            width: 500px;
+            height: 300px;
+        }
+        th{
+            background-color: lightgray;
+        }
+
+
+        tr,th,td{
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .d1{
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.616);
+            color: white;
+        }
+
+        .d2{
+            text-align: center;
+            padding-left: 10px;
+        }
+
+        .d3{
+            background-color: lightgray;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2" scope="row">Área</th>
+            <th rowspan="2" scope="row">Disciplina</th>
+            <th colspan="2" scope="colgroup">Notas</th>
+            <th rowspan="2" scope="row">Média</th>
+            <tr>
+                <th>Nota1</th>
+                <th>Nota2</th>
+            </tr> 
+        </tr>
+        <tr>
+            <td rowspan="4" class="d1">Exatas</td>
+            <td>Matemática</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th colspan="4" class="d2" scope="col">Média de exatas:</th>
+            <td class="d3">7</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="d1">Humanas</td>
+            <td>História</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Português</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th colspan="4" class="d2" scope="col">Média de Humanas:</th>
+            <td class="d3">7</td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
