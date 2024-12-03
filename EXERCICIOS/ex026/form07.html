@@ -10,6 +10,39 @@
     
     <form action="#" method="post">
 
+        <p>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+
+                <option value="" selected>Selecione seu estado</option>
+                <optgroup label="Região Sul">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio grande do sul</option>
+                </optgroup>
+
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="profissao">Profissão</label>
+            <input type="text" name="profissao" id="profissao" list="lista">
+            <datalist id="lista">
+                <option value="programador">programador</option>
+                <option value="Repositor">Repositor</option>
+                <option value="Compositor">Compositor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <p><label for="msg">mensagem</label></p>
+            <textarea name="msg" id="msg"></textarea>
+        </p>
 
 
 
