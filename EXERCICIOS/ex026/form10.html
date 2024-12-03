@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form action="#" method="post">
+
+        <p>
+            <label for="ano">Em que ano Você nasceu:</label>
+            <input type="number" name="ano" id="ano" min="1900" max="2024" placeholder="ano" oninput="calcidade()">
+        </p>
+
+        <p>
+            <label for="idade">Sua idade é</label>
+            <output id="idade">0</output>
+        </p>
+
+
+        <script>
+            function calcidade(){
+                let atual = new Date().getFullYear()
+                idade.innerHTML = Number(atual) - Number(ano.value)
+            }
+        </script>
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
